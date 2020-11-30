@@ -3,6 +3,7 @@ import "./App.css";
 import Accordion from "./Components/Accordion";
 import Search from "./Components/Search";
 import Dropdown from "./Components/Dropdown";
+import Translate from "./Components/Translate";
 
 const items = [
   {
@@ -35,13 +36,14 @@ function App() {
       {/* 
       <Accordion items={items} />
       <Search />
-      */}
-
       <Dropdown
         onSelectedChange={setSelected}
         selected={selected}
         options={options}
+        instructions="Selected a color"
       />
+      */}
+      <Translate />
     </div>
   );
 }
