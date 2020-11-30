@@ -3,6 +3,7 @@ import Dropdown from "./Dropdown";
 import Convert from "./Convert";
 
 const options = [
+  { label: "Chinese", value: "zh" },
   { label: "Africans", value: "af" },
   { label: "Arabic", value: "ar" },
   { label: "Hindi", value: "hi" },
